@@ -1,19 +1,31 @@
 /* MOBILE FIRST*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.24;
+}
+
 header {
     height: 80px;
-
     position: sticky;
     top: 0;
     background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    display: block;
+
 }
 
-
+.banner-2 {
+    background-image: url('./fromDesigner/imgs/banner-bg.png');
+    height: 400px;
+}
 
 
 
