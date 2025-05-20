@@ -55,7 +55,7 @@ duckCollection.forEach(product => {
 
     section.innerHTML = `
         <img src="${product.img}" alt="prodotto" class="img-fluid mb-2">
-        <h5 class="fw-bold">${product.price}</h5>
+        <h5 class="fw-bold text-success">${product.price}</h5>
         <div class="stars text-center mt-2">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
