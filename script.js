@@ -67,3 +67,5 @@ duckCollection.forEach(product => {
 
     productContainer.appendChild(section);
 });
+
+/*FAQ Section*/
