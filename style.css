@@ -32,10 +32,13 @@ p {
 }
 
 .fa-star {
-    color: rgb(233, 237, 11)
+    color: rgb(233, 237, 11);
 }
 
-;
+.collection-wrapper {
+    background-color: rgb(235, 235, 235);
+
+}
 
 
 

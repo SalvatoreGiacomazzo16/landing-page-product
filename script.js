@@ -1,3 +1,4 @@
+/* RADIO SECTION */
 const reviews = [
     "La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i problemi al mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi avrebbero fatto impazzire. È anche un ottimo antistress per le giornate difficili!",
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio, fugiat consequuntur perspiciatis doloremque magni alias maxime, et architecto incidunt dolor, sequi sit. Facilis dolorem dicta illo deserunt laborum. Laudantium.",
@@ -28,3 +29,20 @@ radios.forEach(radio => {
 document.getElementById("radio1").checked = true;
 reviewText.textContent = reviews[0];
 reviewerName.textContent = reviewersNames[0];
+
+/* COLLECTION SECTION    */
+
+const duckCollection = [
+    {
+        img: './fromDesigner/imgs/product-item1.png',
+        price: '$15',
+    },
+    {
+        img: './fromDesigner/imgs/product-item2.png',
+        price: '$24.99',
+    },
+    {
+        img: './fromDesigner/imgs/product-item3.png',
+        price: '$69'
+    }
+]
