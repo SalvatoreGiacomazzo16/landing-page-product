@@ -35,9 +35,18 @@ p {
     color: rgb(233, 237, 11);
 }
 
-.collection-wrapper {
+.collection-wrapper,
+footer {
     background-color: rgb(235, 235, 235);
 
+}
+
+.social {
+    border-radius: 50%;
+    color: rgb(70, 249, 109);
+    background-color: white;
+    padding: 10px;
+    border-style: outset;
 }
 
 
