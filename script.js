@@ -68,4 +68,17 @@ duckCollection.forEach(product => {
     productContainer.appendChild(section);
 });
 
-/*FAQ Section*/
+/*Sidebar Toggle*/
+const toggle = document.getElementById('menu-toggle');
+const close = document.getElementById('menu-close');
+const sidebar = document.getElementById('sidebar');
+
+toggle.addEventListener('click', () => {
+    sidebar.classList.add('show');
+    document.body.style.overflow = 'hidden';
+});
+
+close.addEventListener('click', () => {
+    sidebar.classList.remove('show');
+    document.body.style.overflow = '';
+});
