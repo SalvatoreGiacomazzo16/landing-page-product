@@ -82,3 +82,13 @@ close.addEventListener('click', () => {
     sidebar.classList.remove('show');
     document.body.style.overflow = '';
 });
+
+/*Handling sidebar clicks*/
+const sidebarLinks = document.querySelectorAll('#sidebar a');
+
+sidebarLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        sidebar.classList.remove('show');
+        document.body.style.overflow = '';
+    });
+});

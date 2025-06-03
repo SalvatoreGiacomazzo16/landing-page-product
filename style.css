@@ -18,18 +18,27 @@ header {
 
 /*Sidebar*/
 #sidebar {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -100%;
     width: 60%;
     height: 100vh;
     background: white;
     transition: right 0.3s ease;
+    z-index: 1;
 }
 
 #sidebar.show {
     right: 0;
 }
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
 
 img {
     max-width: 100%;
