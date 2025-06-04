@@ -48,7 +48,9 @@ img {
 
 .banner-2 {
     background-image: url('./fromDesigner/imgs/banner-bg.png');
-    height: 400px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 p {
